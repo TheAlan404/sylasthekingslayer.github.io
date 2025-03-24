@@ -63,8 +63,6 @@ Göz yaşartıcı gaz kullanılması durumunda:
 4. Gözlerinizi **ovmayın**, bu tahriş edici maddeyi yayar
 5. En kısa sürede **kirlenmiş giysilerinizi değiştirin**
 
-[Detaylı Göz Yaşartıcı Gaza Müdahale Rehberi](/safety/tear-gas) # Assuming /safety/tear-gas is correct
-
 ### Temel İlk Yardım Bilgileri
 
 Temel ilk yardım bilgilerine sahip olmak çok önemlidir:
@@ -72,8 +70,6 @@ Temel ilk yardım bilgilerine sahip olmak çok önemlidir:
 - **Küçük yaralanmalar için**: Suyla temizleyin, kanamayı durdurmak için basınç uygulayın
 - **Isı bitkinliği için**: Gölgeye geçin, suyla serinletin, sıvı alın
 - **Biber gazı için**: Suyla yıkayın, yağlardan veya kremlerden kaçının
-
-[Kapsamlı İlk Yardım Rehberi](/safety/first-aid) # Assuming /safety/first-aid is correct
 
 ## Protestodan Sonra
 
@@ -100,7 +96,7 @@ Endişe verici olaylara tanık olduysanız veya yaşadıysanız:
 | Hukuki Yardım Hattı | +90 XXX XXX XXXX | # Keep the format, but needs actual number
 | Ruh Sağlığı Desteği | +90 XXX XXX XXXX | # Keep the format, but needs actual number
 
-## Ek Kaynaklar
+<!-- ## Ek Kaynaklar
 
 - [Dijital Güvenlik Rehberi](/safety/digital) - Çevrimiçi varlığınızı koruyun # Assuming /safety/digital is correct
 - [Belgeleme Rehberi](/safety/documentation) - Protestoları güvenli bir şekilde belgeleyin # Assuming /safety/documentation is correct
@@ -108,4 +104,4 @@ Endişe verici olaylara tanık olduysanız veya yaşadıysanız:
 
 ::: tip DOWNLOADABLE CHECKLIST
 Protestoya katılmadan önce yazdırmak ve kullanmak için [Protesto Güvenlik Kontrol Listemizi](/resources/safety-checklist.pdf) indirin. # Assuming /resources/safety-checklist.pdf is correct
-:::
+::: -->

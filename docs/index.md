@@ -43,7 +43,7 @@ features:
   - icon: 🔒
     title: "Güvenli İletişim"
     details: "Protestolar sırasında dijital gizliliğinizi koruyarak güvenli iletişim kurma yöntemlerini öğrenin. Hükümetin kısıtladığı internet özgürlüğümüzü nasıl geri kazanacağımızı öğrenin."
-    link: /guvenlik/digital/ # Assuming /guvenlik/digital/ is correct
+    link: /digital/ # Assuming /guvenlik/digital/ is correct
   - icon: ✊
     title: "Protesto Kılavuzu"
     details: "Daha organize bir şekilde sesimizi duyurmamız için protesto kılavuzları."
