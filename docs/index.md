@@ -29,7 +29,7 @@ features:
   - icon: 📰
     title: "Doğrulanmış Güncellemeler"
     details: "Güvenilir bağımsız kaynaklardan en son doğrulanan haberler ve güncellemelerle bilgi sahibi olun."
-    link: /haberler/ # Assuming /haberler/ is correct, otherwise needs translation
+    link: /haberler/
   - icon: 🗺️
     title: "Etkileşimli Harita"
     details: "Türkiye genelindeki protesto yerleri, polis varlığı ve sağlık istasyonları hakkında gerçek zamanlı bilgileri görüntüleyin."
@@ -41,7 +41,7 @@ features:
   - icon: 🔒
     title: "Güvenli İletişim"
     details: "Protestolar sırasında dijital gizliliğinizi koruyarak güvenli iletişim kurma yöntemlerini öğrenin. Hükümetin kısıtladığı internet özgürlüğümüzü nasıl geri kazanacağımızı öğrenin."
-    link: /dijital/ # Assuming /guvenlik/digital/ is correct
+    link: /dijital/
   - icon: ✊
     title: "Protesto Kılavuzu"
     details: "Daha organize bir şekilde sesimizi duyurmamız için protesto kılavuzları."

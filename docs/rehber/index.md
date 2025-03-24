@@ -71,14 +71,6 @@ Barışçıl protestolarda kullanılan etkili taktikleri öğrenin.
 ::: info "Su gibi ol" - Bruce Lee
 Hong Kong protestocularının benimsediği "su gibi ol" felsefesi, katı bir hiyerarşi olmadan akışkan, uyarlanabilir ve çevik hareket etmeyi vurgular.
 :::
-<!-- 
-### Temel Taktikler
-
-- [Güvenli İletişim Yöntemleri](/guides/tactics/communication)
-- [Hızlı Seferberlik Teknikleri](/guides/tactics/mobilization)
-- [Barışçıl Direniş Stratejileri](/guides/tactics/peaceful-resistance)
-- [Belgeleme ve Raporlama](/guides/tactics/documentation)
-- [Dağılma ve Yeniden Toplanma](/guides/tactics/regrouping) -->
 
 ## Dijital Güvenlik
 

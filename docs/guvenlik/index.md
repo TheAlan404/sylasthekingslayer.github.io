@@ -88,14 +88,6 @@ Endişe verici olaylara tanık olduysanız veya yaşadıysanız:
 - Herhangi bir fotoğraf/video kanıtını birden fazla güvenli yerde **saklayın**
 - Yasal gözlemcilere veya insan hakları örgütlerine **bildirmeyi düşünün**
 
-## Acil Durum İletişim Bilgileri
-
-| Acil Durum Servisi | İletişim Numarası |
-|-------------------|----------------|
-| Tıbbi Acil Durum | 112 |
-| Hukuki Yardım Hattı | +90 XXX XXX XXXX | # Keep the format, but needs actual number
-| Ruh Sağlığı Desteği | +90 XXX XXX XXXX | # Keep the format, but needs actual number
-
 <!-- ## Ek Kaynaklar
 
 - [Dijital Güvenlik Rehberi](/safety/digital) - Çevrimiçi varlığınızı koruyun # Assuming /safety/digital is correct
