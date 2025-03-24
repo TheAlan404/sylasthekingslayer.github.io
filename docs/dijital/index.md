@@ -87,8 +87,10 @@ Eğer VPN servislerine erişmekte zorluk çekiyorsanız Tor ağı aracılığıy
 
 Tor üzerinden internet bağlantısı kurduğunuzda trafiğiniz, konumunuzu ve etkinliğinizi sizi izlemeye çalışanlardan gizleyen ve dünya çapındaki gönüllüler tarafından işletilen bir aktarıcı ağı üzerinden geçirilir.
 
+# DPI nedir? Ne işe yarar?
+DPI (Derin Paket İncelemesi - Deep Packet Inspection), internet trafiğini analiz eden gelişmiş bir ağ gözetim teknolojisidir. Standart ağ analiz araçlarından farklı olarak, sadece paket başlıklarını değil, içeriğini de inceleyebilir.
 
-# Topluluk Desteği
+Bu teknoloji, internet servis sağlayıcıları (İSS'ler), hükümetler ve büyük şirketler tarafından trafik yönetimi, sansür, güvenlik ve gözetim amaçlarıyla kullanılır.
 
 DPI araçları ile ilgili olan ve meraklısına teknik bilgi içeren aşağıdaki videoları öneriyoruz. <br>
 https://youtu.be/TrtUh1njQgA
@@ -103,7 +105,3 @@ https://www.technopat.net/sosyal/konu/discorda-vpnsiz-giris-goodbyedpi-tuerkiye-
 # ByeDPI
 GoodByeDPI'ın Android için olan versiyonu
 [ByeDPI] (https://github.com/dovecoteescapee/ByeDPIAndroid)
-
-# VPN'ler
-[ProtonVPN](https://protonvpn.com/) (Bedava ancak siteye kısıtlama bulunmakta) <br>
-[Windscribe](https://windscribe.com/) - Aylık 10GB kullanım hakkı
