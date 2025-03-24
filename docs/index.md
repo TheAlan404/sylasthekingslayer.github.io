@@ -7,7 +7,6 @@ hero:
   tagline: "Haklarınızı ve güvenliğinizi korumak için pratik bilgiler"
   image:
     src: "2.jpg"
-    alt: Diren Projesi
   actions:
     - theme: brand
       text: "Projeye Katkıda Bulunun"
@@ -43,7 +42,7 @@ features:
   - icon: 🔒
     title: "Güvenli İletişim"
     details: "Protestolar sırasında dijital gizliliğinizi koruyarak güvenli iletişim kurma yöntemlerini öğrenin. Hükümetin kısıtladığı internet özgürlüğümüzü nasıl geri kazanacağımızı öğrenin."
-    link: /digital/ # Assuming /guvenlik/digital/ is correct
+    link: /dijital/ # Assuming /guvenlik/digital/ is correct
   - icon: ✊
     title: "Protesto Kılavuzu"
     details: "Daha organize bir şekilde sesimizi duyurmamız için protesto kılavuzları."
@@ -57,16 +56,16 @@ features:
 
 <!-- Hero Image Section -->
 <div class="hero-image-container">
-  <img id="randomHeroImage" class="hero-image" alt="Diren Projesi" style="width: 100%; height: auto; object-fit: cover;">
+  <img id="randomHeroImage" class="hero-image" style="width: 100%; height: auto; object-fit: cover;">
 </div>
 
 
 <!-- <div class="alert-banner">
   <strong>ACİL GÜNCELLEME:</strong> Ankara ve İstanbul'daki gözaltına alınan protestocular için yeni hukuki yardım hattı mevcut. <a href="/legal/hotlines">Hukuki Yardım Hattı</a> sayfamıza göz atın.
 </div> -->
-
+<!-- 
 ## Son Güncellemeler
-<!--
+
 <div class="news-grid">
   <div class="news-item">
     <h3>Yeni Hukuki Haklar Rehberi</h3>
