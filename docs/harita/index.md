@@ -11,6 +11,8 @@ import ProtestMap from '../components/ProtestMap.vue'
 
 Bu harita, Türkiye genelindeki devam eden ve planlanan protestoların yerlerini göstermektedir. Bölgenizdeki protesto faaliyetleri hakkında bilgi sahibi olmak için bu kaynağı kullanın.
 
+Harita şu anda test modundadır, herhangi bir şey koyulmadı, üniversitelerde yapılan protestolar karşı tarafın bilmemesi gereken bilgiyi almaması adına koyulmayacaktır, parti ve örgütlerin herkesi açık yayınladığı yürüyüşleri [bize bildirin!](/iletisim/)
+
 <ClientOnly>
   <ProtestMap />
 </ClientOnly>
