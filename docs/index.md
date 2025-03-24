@@ -2,11 +2,10 @@
 layout: home
 
 hero:
-  name: "Diren"
   text: "Zulme karşı mukavemet!"
   tagline: "Haklarınızı ve güvenliğinizi korumak için pratik bilgiler"
   image:
-    src: "2.jpg"
+    src: ""
   actions:
     - theme: brand
       text: "Projeye Katkıda Bulunun"
@@ -56,35 +55,3 @@ features:
     details: "Aynı yolda yürüdüğümüz websiteleri"
     link: /websiteleri/
 ---
-
-<!-- Hero Image Section -->
-<div class="hero-image-container">
-  <img id="randomHeroImage" class="hero-image" style="width: 100%; height: auto; object-fit: cover;">
-</div>
-
-
-<!-- <div class="alert-banner">
-  <strong>ACİL GÜNCELLEME:</strong> Ankara ve İstanbul'daki gözaltına alınan protestocular için yeni hukuki yardım hattı mevcut. <a href="/legal/hotlines">Hukuki Yardım Hattı</a> sayfamıza göz atın.
-</div> -->
-<!-- 
-## Son Güncellemeler
-
-<div class="news-grid">
-  <div class="news-item">
-    <h3>Yeni Hukuki Haklar Rehberi</h3>
-    <p>Protestolar sırasında hukuki haklar hakkında kapsamlı rehberimiz güncellenmiştir.</p>
-    <a href="/legal">Daha Fazla Oku</a>
-  </div>
-
-  <div class="news-item">
-    <h3>İstanbul Protestoları İçin Doğrulanmış Bilgiler</h3>
-    <p>İstanbul'daki yol kapanışları ve güvenli buluşma noktalarıyla ilgili güncel bilgiler.</p>
-    <a href="/news/istanbul-updates">Detayları Görüntüle</a>
-  </div>
-
-  <div class="news-item">
-    <h3>İlk Yardım Eğitim Oturumları</h3>
-    <p>Protestolara katılanlar için temel ilk yardım konularında sanal eğitim oturumları düzenlenecek.</p>
-    <a href="/safety/training">Eğitime Katıl</a>
-  </div>
-</div> -->

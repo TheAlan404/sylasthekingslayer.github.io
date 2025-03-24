@@ -1,44 +1,10 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-  title: "Diren",
+  title: "Ana Menü  ",
   description: "Protestocular için kapsamlı bilgi ve güvenlik kaynağı",
   themeConfig: {
-    logo: '/logo.svg',
     nav: [],
-    sidebar: {
-      '/safety/': [
-        {
-          text: 'Güvenlik Bilgileri',
-          items: [
-            { text: 'Temel Güvenlik', link: '/safety/' },
-            { text: 'Gazla Müdahale', link: '/safety/tear-gas' },
-            { text: 'Dijital Güvenlik', link: '/safety/digital' },
-            { text: 'İlk Yardım', link: '/safety/first-aid' },
-            { text: 'Belgeleme Rehberi', link: '/safety/documentation' },
-          ]
-        }
-      ],
-      '/news/': [
-        {
-          text: 'Haberler ve Güncellemeler',
-          items: [
-            { text: 'Son Haberler', link: '/news/' },
-            { text: 'Medya Kaynakları', link: '/news/sources' },
-            { text: 'Doğrulanmış Bilgiler', link: '/news/verified' },
-          ]
-        }
-      ],
-      '/groups/': [
-        {
-          text: 'Protesto Grupları',
-          items: [
-            { text: 'Rehber', link: '/groups/' },
-            { text: 'İletişim kanalları', link: '/groups/telegram' },
-          ]
-        }
-      ],
-    },
     socialLinks: [
       { icon: 'github', link: 'https://github.com/sylasthekingslayer' },
       { icon: 'x', link: 'https://x.com/geryuz42' },
