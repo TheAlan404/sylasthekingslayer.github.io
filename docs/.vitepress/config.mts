@@ -40,9 +40,9 @@ export default defineConfig({
       ],
     },
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/diren-project' },
-      { icon: 'x', link: 'https://twitter.com/direninfo' },
-      { icon: 'instagram', link: 'https://instagram.com/direnproject' },
+      { icon: 'github', link: 'https://github.com/sylasthekingslayer' },
+      { icon: 'x', link: 'https://x.com/geryuz42' },
+      { icon: 'telegram', link: 'https://t.me/geris3' },
     ],
     footer: {
       message: 'MIT Lisansı ile yayımlanmıştır.',

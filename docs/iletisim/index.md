@@ -14,22 +14,14 @@ Thank you for your interest in reaching out to us. We're here to help answer you
   <div class="contact-methods">
     <div class="contact-method">
       <h3>Email</h3>
-      <p><a href="mailto:hello@example.com">hello@example.com</a></p>
+      <p><a href="mailto:sylasthekingslayer@proton.me">sylasthekingslayer@proton.me</a></p>
     </div>
+    <div class="contact-method">
+      <h3>Uygulamalar</h3>
+      <p>Telegram: https://t.me/geris3</p>
+      <p>X: https://t.me/geris3</p>
 
-    <div class="contact-method">
-      <h3>Phone</h3>
-      <p>+1 (555) 123-4567</p>
     </div>
-    
-    <div class="contact-method">
-      <h3>Office</h3>
-      <p>
-        123 Main Street<br>
-        Suite 456<br>
-        City, State 12345<br>
-        United States
-      </p>
     </div>
   </div>
 </div>
