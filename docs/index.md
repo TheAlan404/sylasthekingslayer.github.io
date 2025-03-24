@@ -51,7 +51,10 @@ features:
     title: "Boykot"
     details: "Ülkemizde olan adaletsizliklere karşı sesini çıkarmayanlar."
     link: /boykot/
-
+  - icon: 🤝
+    title: "Websiteleri"
+    details: "Aynı yolda yürüdüğümüz websiteleri"
+    link: /websiteleri/
 ---
 
 <!-- Hero Image Section -->
