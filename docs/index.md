@@ -6,7 +6,7 @@ hero:
   text: "Zulme karşı mukavemet!"
   tagline: "Haklarınızı ve güvenliğinizi korumak için pratik bilgiler"
   image:
-    src: "" # Leave empty to avoid default image
+    src: "2.jpg"
     alt: Diren Projesi
   actions:
     - theme: brand
