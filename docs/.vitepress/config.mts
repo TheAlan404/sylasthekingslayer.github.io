@@ -58,6 +58,6 @@ export default defineConfig({
 
   head: [
     ['link', { rel: 'icon', href: 'favicon.ico' }],
-    ['link', { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.css' }] // Leaflet CSS ekleniyor
+    ['link', { rel: 'stylesheet', href: 'https://unpkg.com/leaflet@1.9.4/dist/leaflet.css' }] // Leaflet CSS ekleniyor
   ]
 })

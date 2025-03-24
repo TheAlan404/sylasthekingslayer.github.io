@@ -60,22 +60,6 @@ features:
   <img id="randomHeroImage" class="hero-image" alt="Diren Projesi" style="width: 100%; height: auto; object-fit: cover;">
 </div>
 
-<script>
-document.addEventListener("DOMContentLoaded", function() {
-  const numberOfImages = 2; // Update this number to match your actual images
-  const randomNumber = Math.floor(Math.random() * numberOfImages) + 1;
-  const imagePath = `/assets/${randomNumber}.jpg`; // Absolute path from root
-  
-  const heroImage = document.getElementById('randomHeroImage');
-  if (heroImage) {
-    heroImage.src = imagePath;
-    heroImage.onerror = function() {
-      // Fallback to placeholder if image fails to load
-      this.src = '/assets/placeholder.jpg';
-    };
-  }
-});
-</script>
 
 <!-- <div class="alert-banner">
   <strong>ACİL GÜNCELLEME:</strong> Ankara ve İstanbul'daki gözaltına alınan protestocular için yeni hukuki yardım hattı mevcut. <a href="/legal/hotlines">Hukuki Yardım Hattı</a> sayfamıza göz atın.
