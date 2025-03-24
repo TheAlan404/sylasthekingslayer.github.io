@@ -18,6 +18,7 @@ https://www.technopat.net/sosyal/konu/discorda-vpnsiz-giris-goodbyedpi-tuerkiye-
 
 # ByeDPI
 GoodByeDPI'ın Android için olan versiyonu
+[ByeDPI] (https://github.com/dovecoteescapee/ByeDPIAndroid)
 
 # VPN'ler
 [ProtonVPN](https://protonvpn.com/) (Bedava ancak siteye kısıtlama bulunmakta) <br>
