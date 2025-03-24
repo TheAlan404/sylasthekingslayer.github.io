@@ -1,5 +1,4 @@
 ---
-layout: default
 title: İletişim
 description: Ekibimizle iletişime geçin. Sorularınızı ve geri bildirimlerinizi bekliyoruz.
 ---
