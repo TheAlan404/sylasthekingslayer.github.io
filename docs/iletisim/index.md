@@ -20,7 +20,6 @@ Thank you for your interest in reaching out to us. We're here to help answer you
       <h3>Uygulamalar</h3>
       <p>Telegram: https://t.me/geris3</p>
       <p>X: https://t.me/geris3</p>
-
     </div>
     </div>
   </div>
