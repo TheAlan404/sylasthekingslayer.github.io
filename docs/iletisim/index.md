@@ -1,19 +1,19 @@
 ---
 layout: default
-title: Contact Us
-description: Get in touch with our team. We're here to help with your questions and feedback.
+title: İletişim
+description: Ekibimizle iletişime geçin. Sorularınızı ve geri bildirimlerinizi bekliyoruz.
 ---
 
-# Contact Us
+# İletişim
 
-Thank you for your interest in reaching out to us. We're here to help answer your questions and address your concerns.
+Bize ulaşmak istediğiniz için teşekkür ederiz. Sorularınızı yanıtlamak, görüşlerinizi dinlemek ve size destek olmak için buradayız. Bu platform, dayanışmayı güçlendirmek ve doğru bilgiyi paylaşmak amacıyla var; sizin sesiniz de bu çabanın bir parçası.
 
-## Get In Touch
+## Bize Ulaşın
 
 <div class="contact-container">
   <div class="contact-methods">
     <div class="contact-method">
-      <h3>Email</h3>
+      <h3>E-posta</h3>
       <p><a href="mailto:sylasthekingslayer@proton.me">sylasthekingslayer@proton.me</a></p>
     </div>
     <div class="contact-method">
@@ -21,34 +21,28 @@ Thank you for your interest in reaching out to us. We're here to help answer you
       <p>Telegram: https://t.me/geris3</p>
       <p>X: https://t.me/geris3</p>
     </div>
-    </div>
   </div>
 </div>
-
 ## Send Us a Message
-
+<!-- 
 <div class="contact-form">
   <form @submit.prevent="submitForm">
     <div class="form-group">
       <label for="name">Name</label>
       <input type="text" id="name" v-model="form.name" required>
     </div>
-    
     <div class="form-group">
       <label for="email">Email</label>
       <input type="email" id="email" v-model="form.email" required>
     </div>
-    
     <div class="form-group">
       <label for="subject">Subject</label>
       <input type="text" id="subject" v-model="form.subject" required>
     </div>
-    
     <div class="form-group">
       <label for="message">Message</label>
       <textarea id="message" v-model="form.message" rows="5" required></textarea>
     </div>
-    
     <button type="submit" class="submit-button" :disabled="submitting">
       {{ submitting ? 'Sending...' : 'Send Message' }}
     </button>
@@ -157,4 +151,4 @@ input, textarea {
   opacity: 0.7;
   cursor: not-allowed;
 }
-</style>
+</style> -->
