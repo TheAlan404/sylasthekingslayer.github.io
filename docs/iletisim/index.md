@@ -5,20 +5,32 @@ description: Ekibimizle iletişime geçin. Sorularınızı ve geri bildirimlerin
 
 # İletişim
 
-Bize ulaşmak istediğiniz için teşekkür ederiz. Sorularınızı yanıtlamak, görüşlerinizi dinlemek ve size destek olmak için buradayız. Bu platform, dayanışmayı güçlendirmek ve doğru bilgiyi paylaşmak amacıyla var; sizin sesiniz de bu çabanın bir parçası.
+Bize ulaşmak istediğiniz için teşekkür ederiz. Sorularınızı yanıtlamak, görüşlerinizi dinlemek ve size destek olmak için buradayız.
 
 ## Bize Ulaşın
 
 <div class="contact-container">
   <div class="contact-methods">
     <div class="contact-method">
-      <h3>E-posta</h3>
-      <p><a href="mailto:sylasthekingslayer@proton.me">sylasthekingslayer@proton.me</a></p>
+      <i class="vp-icon vp-icon-github"></i>
+      <div>
+        <h3>GitHub</h3>
+        <p><a href="https://github.com/sylasthekingslayer">GitHub Profilimiz</a></p>
+      </div>
     </div>
     <div class="contact-method">
-      <h3>Uygulamalar</h3>
-      <p>Telegram: https://t.me/geris3</p>
-      <p>X: https://t.me/geris3</p>
+      <i class="vp-icon vp-icon-x"></i>
+      <div>
+        <h3>X</h3>
+        <p><a href="https://x.com/geryuz42">https://x.com/geryuz42</a></p>
+      </div>
+    </div>
+    <div class="contact-method">
+      <i class="vp-icon vp-icon-telegram"></i>
+      <div>
+        <h3>Telegram</h3>
+        <p><a href="https://t.me/geris3">https://t.me/geris3</a></p>
+      </div>
     </div>
   </div>
 </div>

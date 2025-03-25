@@ -15,7 +15,7 @@ Protestolara katılırken yasal haklarınızı anlamak önemlidir:
 
 ### Barışçıl Toplanma Hakkı
 
-Türkiye Cumhuriyeti Anayasası’nın 34. maddesi barışçıl toplanma hakkını garanti eder, ancak bu hak milli güvenlik veya kamu düzeni gibi belirli nedenlerle yasalarla sınırlandırılabilir. Ancak, uygulamada bu sınırlandırmalar bazen keyfi bir şekilde genişletilebiliyor.
+Türkiye Cumhuriyeti Anayasası’nın 34. maddesi barışçıl toplanma hakkını garanti eder, ancak bu hak milli güvenlik veya kamu düzeni gibi belirli nedenlerle yasalarla sınırlandırılabilir.
 
 ### Gözaltına Alınırsanız
 

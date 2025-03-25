@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitepress'
+import './theme/style.css'
 
 export default defineConfig({
   title: "Ana Menü  ",
