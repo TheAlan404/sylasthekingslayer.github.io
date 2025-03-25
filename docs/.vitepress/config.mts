@@ -12,7 +12,6 @@ export default defineConfig({
     ],
     footer: {
       message: 'MIT Lisansı ile yayımlanmıştır.',
-      copyright: 'Copyright © 2025 Diren Projesi'
     }
   },
 
@@ -24,6 +23,6 @@ export default defineConfig({
 
   head: [
     ['link', { rel: 'icon', href: 'favicon.ico' }],
-    ['link', { rel: 'stylesheet', href: 'https://unpkg.com/leaflet@1.9.4/dist/leaflet.css' }]
+    ['link', { rel: 'stylesheet', href: 'https://unpkg.com/leaflet@1.9.4/dist/leaflet.css' }] // Leaflet CSS ekleniyor
   ]
 })
