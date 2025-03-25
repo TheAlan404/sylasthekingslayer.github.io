@@ -9,12 +9,12 @@
   --vp-font-family-base: "Open Sans", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
   --vp-font-family-mono: Consolas, Monaco, "Andale Mono", monospace;
 }
-
+/* 
 .vp-icon {
   font-size: 24px;
   vertical-align: middle;
   color: var(--vp-c-brand);
-}
+} */
 
 /* Alert banner for urgent information */
 .alert-banner {
