@@ -26,10 +26,6 @@ features:
     title: "Güvenlik Kılavuzları"
     details: "Gaza maruz kalmaktan korunma, olayları güvenli bir şekilde belgeleme ve temel ilk yardım gibi önemli güvenlik önlemleri hakkında bilgi edinin."
     link: /guvenlik/
-  - icon: 📰
-    title: "Doğrulanmış Güncellemeler"
-    details: "Güvenilir bağımsız kaynaklardan en son doğrulanan haberler ve güncellemelerle bilgi sahibi olun."
-    link: /haberler/
   - icon: 🗺️
     title: "Etkileşimli Harita"
     details: "Türkiye genelindeki protesto yerleri, polis varlığı ve sağlık istasyonları hakkında gerçek zamanlı bilgileri görüntüleyin."

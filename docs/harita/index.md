@@ -29,7 +29,3 @@ Haritamızda olmayan bir protesto mu biliyorsunuz? Lütfen bilgi göndererek bu 
 - Protestolara katılmadan önce daima bilgileri birden fazla kaynaktan doğrulayına
 - Konum verileri, protestocuların gizliliğini korumak için yaklaşık olarak verilmiştir
 - Bu bilgileri kullanırken önce güvenliğinizi düşünün
-<!-- 
-## Güvenlik Hatırlatmaları
-
-Herhangi bir protestoya katılmadan önce [Güvenlik İpuçlarımızı](/safety/) incelemeyi ve gösterilere katılırken [Yasal Haklarınızın](/legal/) farkında olmayı unutmayın. -->

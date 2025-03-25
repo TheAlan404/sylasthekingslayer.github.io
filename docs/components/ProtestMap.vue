@@ -2,8 +2,8 @@
   <div class="map-container">
     <div id="protest-map" style="height: 500px; width: 100%; border-radius: 8px;"></div>
     <div class="map-legend">
-      <div class="map-legend-item ongoing">Ongoing protests</div>
-      <div class="map-legend-item planned">Planned protests</div>
+      <div class="map-legend-item ongoing">Devam Eden Eylemler</div>
+      <div class="map-legend-item planned">Planlanmış Eylemler</div>
     </div>
   </div>
 </template>
@@ -49,6 +49,15 @@ export default {
           date: "2025-03-26",
           details: "Demonstration against industrial pollution.",
           time: "13:00 - 17:00"
+        },
+        {
+          id: 5,
+          name: "Second Izmir Student Protest",
+          location: [38.4237, 27.1428], // Izmir coordinates
+          status: "planned",
+          date: "2025-03-26",
+          details: "Additional student demonstration.",
+          time: "16:00 - 18:00"
         }
       ]
     };
@@ -98,40 +107,76 @@ export default {
         attribution: '© OpenStreetMap contributors'
       }).addTo(this.map);
 
-      // Define custom icons for ongoing and planned protests
-      const ongoingIcon = L.divIcon({
-        className: 'custom-div-icon',
-        html: "<div style='background-color:#c00; width:12px; height:12px; border-radius:50%; border:2px solid white;'></div>",
-        iconSize: [16, 16],
-        iconAnchor: [8, 8]
-      });
+      // Group protests by location
+      const protestsByLocation = this.groupProtestsByLocation();
 
-      const plannedIcon = L.divIcon({
-        className: 'custom-div-icon',
-        html: "<div style='background-color:#F4D03F; width:12px; height:12px; border-radius:50%; border:2px solid white;'></div>",
-        iconSize: [16, 16],
-        iconAnchor: [8, 8]
-      });
+      const createDynamicIcon = (status, size, location) => {
+        return L.divIcon({
+          className: 'custom-div-icon',
+          html: `<div style='background-color:${status === 'ongoing' ? '#c00' : '#F4D03F'}; 
+                width:${size}px; height:${size}px; border-radius:50%; 
+                border:2px solid white; 
+                display:flex; 
+                justify-content:center; 
+                align-items:center;
+                font-weight:bold;
+                color:white;
+                font-size:${size/2}px;'>${protestsByLocation[this.locationToKey(location)].length}</div>`,
+          iconSize: [size, size],
+          iconAnchor: [size/2, size/2]
+        });
+      };
 
-      // Add markers for each protest
-      this.protests.forEach(protest => {
-        const icon = protest.status === 'ongoing' ? ongoingIcon : plannedIcon;
+      // Add markers for each unique location
+      Object.keys(protestsByLocation).forEach(locationKey => {
+        const locationProtests = protestsByLocation[locationKey];
+        const location = locationProtests[0].location;
         
-        const marker = L.marker(protest.location, { icon: icon }).addTo(this.map);
+        // Determine marker size based on number of protests
+        const baseSize = 16;
+        const sizeMultiplier = Math.min(locationProtests.length * 8, 48); // Max size of 48px
+        const markerSize = baseSize + sizeMultiplier;
+
+        // Determine overall status (prioritize ongoing)
+        const status = locationProtests.some(p => p.status === 'ongoing') ? 'ongoing' : 'planned';
         
-        // Create popup content
+        const icon = createDynamicIcon(status, markerSize, location);
+        
+        const marker = L.marker(location, { icon: icon }).addTo(this.map);
+        
+        // Create popup content with all protests at this location
         const popupContent = `
           <div class="protest-popup">
-            <h3>${protest.name}</h3>
-            <p><strong>Status:</strong> ${protest.status === 'ongoing' ? 'Ongoing' : 'Planned'}</p>
-            <p><strong>Date:</strong> ${protest.date}</p>
-            <p><strong>Time:</strong> ${protest.time}</p>
-            <p>${protest.details}</p>
+            <h3>Protests in this Location</h3>
+            ${locationProtests.map(protest => `
+              <div class="protest-details">
+                <p><strong>${protest.name}</strong></p>
+                <p><strong>Status:</strong> ${protest.status === 'ongoing' ? 'Ongoing' : 'Planned'}</p>
+                <p><strong>Date:</strong> ${protest.date}</p>
+                <p><strong>Time:</strong> ${protest.time}</p>
+                <p>${protest.details}</p>
+              </div>
+            `).join('<hr>')}
           </div>
         `;
         
         marker.bindPopup(popupContent);
       });
+    },
+    groupProtestsByLocation() {
+      const protestMap = {};
+      this.protests.forEach(protest => {
+        const key = this.locationToKey(protest.location);
+        if (!protestMap[key]) {
+          protestMap[key] = [];
+        }
+        protestMap[key].push(protest);
+      });
+      return protestMap;
+    },
+    locationToKey(location) {
+      // Round coordinates to reduce precision and group nearby protests
+      return `${location[0].toFixed(2)},${location[1].toFixed(2)}`;
     }
   }
 };
@@ -185,4 +230,17 @@ export default {
   margin: 5px 0;
   font-size: 14px;
 }
+
+.custom-div-icon {
+  transition: transform 0.3s ease-in-out;
+  transform: scale(0);
+  animation: scaleUp 0.3s forwards;
+}
+
+@keyframes scaleUp {
+  to {
+    transform: scale(1);
+  }
+}
+
 </style>
