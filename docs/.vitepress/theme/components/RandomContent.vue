@@ -7,7 +7,8 @@ const { isDark } = useData()
 const quotesList = [
   "Zulme karşı mukavemet!",
   "Hak, hukuk, adalet!",
-  "Cehalet, ayrıcalıklı sınıfın ustaca kullandığı bir silahtır."
+  "Cehalet, ayrıcalıklı sınıfın ustaca kullandığı bir silahtır.",
+  "Kahrolsun istibdat, yaşasın hürriyet!"
 ]
 
 const imagesList = [
