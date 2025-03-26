@@ -32,12 +32,10 @@ onMounted(() => {
   setInterval(changeQuoteAndImage, 10000)
 })
 
-// Metin rengi karanlık/aydınlık moda göre değişir
 const textColor = computed(() => {
   return isDark.value ? 'white' : 'var(--vp-c-text-1)'
 })
 
-// Metin gölgesi karanlık/aydınlık moda göre değişir
 const textShadow = computed(() => {
   return isDark.value 
     ? '1px 1px 3px rgba(0, 0, 0, 0.3)' 
@@ -93,8 +91,8 @@ const textShadow = computed(() => {
 
 .quote-image {
   flex: 1;
-  max-width: 450px;
-  height: 500px; /* Sabit yükseklik */
+  max-width: 337.5px;
+  height: 375px;
   overflow: hidden;
   border-radius: 12px;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
@@ -109,7 +107,7 @@ const textShadow = computed(() => {
 .quote-image img {
   width: 100%;
   height: 100%;
-  object-fit: cover; /* Resmi kırpmadan boyutlandır */
+  object-fit: cover;
   transition: transform 0.4s ease;
 }
 
@@ -144,7 +142,6 @@ const textShadow = computed(() => {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-/* Mobil cihazlar için düzenleme */
 @media (max-width: 768px) {
   .quote-container {
     flex-direction: column;
@@ -164,7 +161,7 @@ const textShadow = computed(() => {
   .quote-image {
     width: 100%;
     max-width: 100%;
-    height: 250px; /* Mobil için biraz daha küçük */
+    height: 250px;
     transform: none;
   }
 }
