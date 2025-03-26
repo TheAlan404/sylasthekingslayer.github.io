@@ -2,7 +2,7 @@
 layout: home
 
 hero:
-  text: "Zulme karşı mukavemet!"
+  text: ""
   tagline: "Haklarınızı ve güvenliğinizi korumak için pratik bilgiler"
   image:
     src: ""

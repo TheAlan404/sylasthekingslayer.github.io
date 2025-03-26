@@ -5,9 +5,18 @@ import DefaultTheme from 'vitepress/theme'
 import './style.css'
 import enhanceApp from './enhanceApp'
 
+// Bileşenlerimizi içe aktarıyoruz
+import RandomContent from './components/RandomContent.vue'
+import HomeLayout from './components/HomeLayout.vue'
+
 export default {
   extends: DefaultTheme,
   Layout: () => {
-    return h(DefaultTheme.Layout, null, {})
+    // Özel düzeni kullanıyoruz
+    return h(HomeLayout)
   },
+  enhanceApp({ app }) {
+    // Global bileşen olarak kayıt
+    app.component('RandomContent', RandomContent)
+  }
 } satisfies Theme
